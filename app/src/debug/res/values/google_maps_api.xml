@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=5B:0C:93:4B:8D:4C:4C:DA:42:1F:86:F4:E5:91:05:52:15:FB:11:11%3Bcom.example.monko.map
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    5B:0C:93:4B:8D:4C:4C:DA:42:1F:86:F4:E5:91:05:52:15:FB:11:11
+
+    SHA-1 certificate fingerprint:
+    5B:0C:93:4B:8D:4C:4C:DA:42:1F:86:F4:E5:91:05:52:15:FB:11:11
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false"> AIzaSyDQLMji6q3I4b-hRk9KBdCCtJYc8bryDaA </string>
+</resources>
