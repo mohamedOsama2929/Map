@@ -42,12 +42,12 @@ import java.util.Locale;
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         , LocationListener {
 
-    private GoogleMap mMap;
+    static boolean mLocationPermissionGranted;
     LocationManager locationManager;
     String provider;
     Location mLastKnownLocation;
     Location location;
-   static boolean mLocationPermissionGranted;
+    private GoogleMap mMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
